@@ -14,7 +14,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../../sitenovo/img/loginfundo21.png);
+  background-image: url(../../leticiapilz.github.io/img/loginfundo21.png);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,10 +27,6 @@ body {
   background: linear-gradient(#1c8ed9, #2eaa8c);
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.555),0 6px 20px 0 rgba(0, 0, 0, 0.596);
-  /* display: flex;
-    justify-content:center;
-    align-items: center;    
-    flex-direction: column;     */
 }
 
 form {
