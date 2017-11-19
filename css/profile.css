@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500");
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 700px;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+}
+
+#sideBar {
+  width: 25%;
+  height: 100%;
+  background-image: url(../../sitenovo/img/filip-zrnzevic-349221.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#sideBar .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(46, 170, 139, 0.705);
+  width: 100%;
+  height: 100%;
+}
+
+#photoProfile {
+  width: 65%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2em;
+
+  }
+#photoProfile img {
+  width: 100%;
+  border-radius: 13em;
+  border:0.25em solid white;
+  }
+
+#home {
+  width: auto;
+  height: auto;
+  font-size: 150%;
+  text-decoration: none;
+  color: white;
+}
+
+#view{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../sitenovo/img/loginFundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#view .container{
+    background-color:rgba(26, 28, 51, 0.952);
+    width: 100%;
+    height: 100%;
+}
+
+
+#links{
+width: 100%;
+height: 35%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+
+}
+
+#links a{
+    width: 60%;
+    text-decoration: none;
+    color: white;
+    font-size: 140%;
+   
+}
+
+#home:before{
+    font-family: "FontAwesome";
+    content: "\f015";
+    
+}

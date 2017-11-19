@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500");
+
+body {
+  width: 100%;
+  height: 48em;;
+  background: linear-gradient(rgb(28, 151, 217), #231450);
+  margin: 0px;
+  padding: 0px;
+  font-family: "Quicksand", sans-serif;
+}
+.gradiente {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../sitenovo/img/loginfundo21.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login {
+  width: 30%;
+  height: 60%;
+  opacity: 0.76;
+  background: linear-gradient(#1c8ed9, #2eaa8c);
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.555),0 6px 20px 0 rgba(0, 0, 0, 0.596);
+  /* display: flex;
+    justify-content:center;
+    align-items: center;    
+    flex-direction: column;     */
+}
+
+form {
+  display: flex; 
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  flex-direction: column; 
+ 
+}
+form h1 {
+    margin-left:2.10ch;
+    margin-bottom: 0px;
+    color:  white;
+    font-size: 150%;
+}
+form hr{
+    width: 25%;
+    margin-left:2em;
+    text-decoration: none;
+    background-color: white;
+    height: 0.10em;
+    border: 0px;
+}
+
+label {
+  display: flex;
+  align-items: flex-start;
+  margin-left:10ch;
+  flex-direction: column;
+  width: 100%;
+  color:white;
+  opacity: 0.42;
+  display: inline-block;
+}
+
+.form-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  flex-grow: 1;
+}
+input {
+  text-decoration: none;
+  border: 0;
+  border-radius: 25px;
+  width: 85%;
+  height: 3em;
+  background-color: #ffffff;
+  opacity: 0.69;
+  outline: none;
+  padding: 1ch;
+}
+
+button {
+  text-decoration: none;
+  border: 0px;
+  border-radius: 0px 0px 25px 25px;
+  background-color: #ffffff;
+  opacity: 0.69;
+  width: 100%;
+  color: #1c8ed9;
+  font-size: 130%;
+  font-weight: 500;
+  padding:1.5ch;
+  /* box-shadow:0 15px 0 #228068; */
+  font-family: "Quicksand", sans-serif;
+  outline: none;
+  cursor: pointer
+}
+button:active{
+    position:relative;
+    top:5px;
+    box-shadow: 0px;
+  
+}
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.erroLogin{
+  color: rgb(255, 87, 87);
+  text-shadow: 2px 2px 15px rgb(255, 0, 0);
+}
+.erroLogin:before{
+  font-family: "FontAwesome";
+  content: "\f235";
+  
+}
+.successLogin{
+  color: rgb(184, 249, 184);
+  text-shadow: 2px 2px 15px rgb(46, 113, 74);
+}
+.successLogin:before{
+  font-family: "FontAwesome";
+  content: "\f00c";
+}

@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../sitenovo/img/fundo.jpg);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width:30%;
+    height: 100%;
+}
+#begin {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#begin h1 {
+    padding-top: 50px;
+    font-size: 90%;
+    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+    color: #FFFFFF;
+    margin-bottom: 100px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    
+}
+
+#menu {
+    margin: 0 auto;
+    width: 85%;
+    height:auto;
+    background-color: rgba(255, 255, 255, 0.62);
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 500;
+    color: rgba(35, 37, 38, 0.53);
+   
+}
+li a{
+    text-decoration: none;
+    color: rgba(35, 37, 38, 0.53);
+    
+}
+
+#menu ul li {
+    list-style: none;
+    text-decoration: none;
+}
+#menu h1{
+    margin: 0px;
+}
+
+#menu-list{
+    width: 50%;
+    height:4em;   
+    padding: 0px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    margin: 0 auto;
+   
+}
+
+#menu-list li {
+        display: flex;
+         width: 100%;
+        height: 100%;
+        font-size: 120%;
+        align-items: center;
+        justify-content: center;  
+        transition:300ms;  
+}
+
+#menu-list li:hover{
+    background-color: rgba(214, 207, 207, 0.76);
+}
+
+#menu-list li i{
+    padding-right: 10px;
+}
+
+#gallery {
+    background-color: rgba(255, 255, 255, 0.45);
+    width: 85%;
+    height: auto;   
+    margin: 0 auto;
+    text-align: center;  
+}
+
+#gallery .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    padding-top: 2%;
+}
+
+.photos {
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.photos img {
+    width: 100%;
+    margin: 0px;   
+    border-radius: 5px;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;   
+}
+
+#btnGallery {
+    margin: 5ch 0ch 5ch 0ch;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.08);
+    border: 0.25em solid rgba(255, 255, 255, 0.274);
+    border-radius: 2em;
+    padding: 1ch;
+    cursor: pointer;
+}
+
+#btnGallery a {
+    margin: 2.5em;
+    text-decoration: none;
+    color: white;
+    
+   
+}
+
+#about {
+    margin: 0 auto;
+    background-color: rgba(91, 104, 107, 0.59);
+    width: 85%;
+    height:auto;
+    margin-bottom: 100px;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 50px;
+   
+}
+
+#about p {
+    text-align: justify;
+}
+
+#about h1 {
+    margin: 0px;
+    padding-bottom: 0.15em; 
+}
+
+#about hr {
+    width: 25%;
+    margin: initial;    
+    height: 0.13em;
+    background: rgba(91, 158, 203, 0.671);
+    border: 0px;
+    margin-bottom: 0.50em; 
+}
+
+#textAbout {
+    margin: 2em;
+    width: 55%;
+    height: auto; 
+    padding: 1em;
+}
+
+#textAbout p {
+     margin:0em;
+
+}
+
+#photoAbout{
+    width: 17%;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+#photoAbout img{
+border-radius: 100%;
+width:100%;
+
+}
+
+#text-photo{
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.text{
+    width:100%;
+    padding:1em;
+    background-color: rgba(82, 104, 106, 0.685);
+}
+
+
+
+/* Classes usadas pelo JavaScript */
+
+.invisivel{
+    display: none !important;
+}
+
